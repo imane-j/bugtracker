@@ -1,0 +1,1 @@
+<?php echo $chart->container(); ?><?php /**PATH C:\laragon\www\bugtracker\resources\views/charts.blade.php ENDPATH**/ ?>
