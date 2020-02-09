@@ -11,7 +11,7 @@ class SocialController extends Controller
 {
     public function redirect($provider)
     {
-        return Socialite::with('Heroku')->redirect();
+        return Socialite::driver($provider)->redirect();
     }
 
     public function callback($provider)

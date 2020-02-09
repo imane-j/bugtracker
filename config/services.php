@@ -33,13 +33,7 @@ return [
     'google' => [
         'client_id' => '864866935361-kt2ebauk3lh02jo45t412gk9q8gbre3q.apps.googleusercontent.com',
         'client_secret' => '5rFVKZJuSOVaeMDKjduJfbfX',
-        'redirect' => 'http://127.0.0.1:8000/callback/google',
-    ],
-    
-    'heroku' => [
-        'client_id' => env('HEROKU_KEY'),
-        'client_secret' => env('HEROKU_SECRET'),
-        'redirect' => env('HEROKU_REDIRECT_URI')
-    ],
+        'redirect' => 'http://ivrybugtracker.herokuapp.com/callback/google',
+    ],s
 
 ];
