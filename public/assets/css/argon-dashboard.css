@@ -20751,7 +20751,7 @@ span {
 .authentication {
   padding-top: 0!important;
 }
-#smallerLogo {
+.smallerLogo {
   width: 40%;
 }
 @media (max-width: 500px) {
@@ -20763,7 +20763,7 @@ span {
     padding-right: 0;
   }
   .dropdown-menu-right {
-    left: 0;
+    left: 0!important;
   }
 }
 .bug-icon {
