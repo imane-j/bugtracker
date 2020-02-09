@@ -20762,6 +20762,9 @@ span {
     margin: 20px 20px 0 20px;
     padding-right: 0;
   }
+  .dropdown-menu-right {
+    left: 0;
+  }
 }
 .bug-icon {
     position: absolute;
