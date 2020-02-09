@@ -40,8 +40,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="navbar-brand pt-0" href="/index.html">
-           <p>Ivry bug tracker</p>
+        <a class="navbar-brand pt-0" href="{{ Route('dashboard') }}">
+          <img src="/assets/img/icons/common/logo_app.png" alt="Ivry Bugtracker logo">
         </a>
         <!-- User -->
         <ul class="nav align-items-center d-md-none">
