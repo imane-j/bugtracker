@@ -30,5 +30,7 @@ class AppServiceProvider extends ServiceProvider
             $view->with('user_info', $user_info);
     
         });
+
+        Schema::defaultStringLength(191);
     }
 }
