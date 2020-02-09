@@ -20745,9 +20745,27 @@ span {
     position: relative;
     z-index: 0;
 }
+#description {
+  margin-top: 50px;
+}
+.authentication {
+  padding-top: 0!important;
+}
+#smallerLogo {
+  width: 40%;
+}
+@media (max-width: 500px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+  #description {
+    margin: 20px 20px 0 20px;
+    padding-right: 0;
+  }
+}
 .bug-icon {
     position: absolute;
-    right: 0;
+    right: 10%;
     top: 0;
     transform: rotate(45deg);
     z-index: -2;
@@ -20777,6 +20795,7 @@ nav .pagination {
   justify-content: center;
   margin: 40px 0;
 }
+
 /*# sourceMappingURL=dashboard-free.css.map */
 
 
