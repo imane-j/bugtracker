@@ -32,7 +32,7 @@
     <link href="/assets/css/argon-dashboard.css?v=1.1.1" rel="stylesheet" />
 </head>
 
-<body class="">
+<body>
 <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
     <div class="container-fluid">
         <!-- Toggler -->
