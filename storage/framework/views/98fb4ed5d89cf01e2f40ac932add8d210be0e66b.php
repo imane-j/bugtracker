@@ -32,7 +32,7 @@
     <link href="/assets/css/argon-dashboard.css?v=1.1.1" rel="stylesheet" />
 </head>
 
-<body class="">
+<body>
 <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
     <div class="container-fluid">
         <!-- Toggler -->
@@ -40,8 +40,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="navbar-brand pt-0" href="/index.html">
-           <p>Ivry bug tracker</p>
+        <a class="navbar-brand pt-0" href="<?php echo e(Route('dashboard')); ?>">
+          <img src="/assets/img/brand/logo_app.png" alt="Ivry Bugtracker logo">
         </a>
         <!-- User -->
         <ul class="nav align-items-center d-md-none">

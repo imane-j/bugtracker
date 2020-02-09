@@ -20,10 +20,12 @@ Route::get('/', function () {
 /* Routes for the login and logout process */
 Route::get('/login', function () {
     return view('login');
-});
+})->name('login');
+
 Route::get('/register', function () {
     return view('register');
-});
+})->name('register');
+
 Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
 Route::get('/callback/{provider}', 'SocialController@callback');
 
