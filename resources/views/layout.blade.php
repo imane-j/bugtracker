@@ -82,7 +82,7 @@
                 <div class="row">
                     <div class="col-6 collapse-brand">
                         <a href="./index.html">
-                            <img src="/assets/img/brand/logo_app.png" class="smallerLogo">
+                            <img src="/assets/img/brand/logo_app.png">
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
