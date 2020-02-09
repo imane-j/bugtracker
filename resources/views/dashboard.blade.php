@@ -1,4 +1,4 @@
-@extends('layout');
+@extends('layout')
 @section('page-title')
     <title>Ivry Bugtracker dashboard</title>
 @endsection
