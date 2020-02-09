@@ -35,5 +35,11 @@ return [
         'client_secret' => '5rFVKZJuSOVaeMDKjduJfbfX',
         'redirect' => 'http://127.0.0.1:8000/callback/google',
     ],
+    
+    'heroku' => [
+        'client_id' => env('HEROKU_KEY'),
+        'client_secret' => env('HEROKU_SECRET'),
+        'redirect' => env('HEROKU_REDIRECT_URI')
+    ],
 
 ];
