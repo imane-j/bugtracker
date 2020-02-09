@@ -34,6 +34,6 @@ return [
         'client_id' => '864866935361-kt2ebauk3lh02jo45t412gk9q8gbre3q.apps.googleusercontent.com',
         'client_secret' => '5rFVKZJuSOVaeMDKjduJfbfX',
         'redirect' => 'http://ivrybugtracker.herokuapp.com/callback/google',
-    ],s
+    ],
 
 ];
